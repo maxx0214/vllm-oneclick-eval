@@ -143,9 +143,9 @@ chat_template.jinja 존재 여부 확인
 max_model_len이 너무 작거나 입력이 길어서 잘린 것
 
 긴 컨텍스트 성능/정확도 테스트는 --max-len을 키워야 함 (OOM 주의)
-
+```
 ### 3) 벤치(tok/s)는 빠른데 quality pass_rate가 급락
-
+```
 “정답/형식 준수”가 무너진 경우가 많음 (특히 GPTQ ignore 범위/캘리브레이션 데이터 영향)
 
 회귀 확인용으로 quality_eval_oneclick.py를 항상 같이 돌리는 걸 추천
