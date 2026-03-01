@@ -54,7 +54,7 @@ python tools/eval_oneclick.py \
 python tools/eval_oneclick.py \
   --model work/__unzip_test/model \
   --gpu-mem 0.70 \
-  --max-len 4096bash'''
+  '''--max-len 4096bash  
 
 ###2) 간이 품질/지시준수 체크(통과율)
 python tools/quality_eval_oneclick.py \
